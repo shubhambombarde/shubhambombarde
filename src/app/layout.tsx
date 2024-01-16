@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <body className={inter.className}>{children}</body>
+    {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
     </html>
   )
 }
