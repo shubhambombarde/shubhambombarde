@@ -27,11 +27,13 @@ export default function AboutSection() {
               delectus, iusto culpa rerum?
             </p>
             <span className="about-wrapper__cta">
-              <a href="#" className="cta-btn cta-btn--resume">View Resume</a>
+              <a href="#" className="cta-btn cta-btn--resume">
+                View Resume
+              </a>
             </span>
           </div>
         </div>
       </div>
     </section>
   );
-};
+}
