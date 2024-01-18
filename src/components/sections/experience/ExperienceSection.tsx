@@ -1,9 +1,9 @@
-export default function ProjectsSection() {
+export default function ExperienceSection() {
   return (
     <section id="projects">
       <div className="container">
         <div className="project-wrapper">
-          <h2 className="section-title dark-blue-text">Projects</h2>
+          <h2 className="section-title dark-blue-text">Experience</h2>
 
           {/*// <!-- Each .row is a project -->*/}
           <article className="row">
@@ -21,11 +21,12 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn cta-btn--hero cta-btn--projects"
-                >See Live</a
                 >
-                <a href="#" target="_blank" className="cta-btn text-color-main"
-                >Source Code</a
-                >
+                  See Live
+                </a>
+                <a href="#" target="_blank" className="cta-btn text-color-main">
+                  Source Code
+                </a>
               </div>
             </div>
 
@@ -61,11 +62,12 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn cta-btn--hero cta-btn--projects"
-                >See Live</a
                 >
-                <a href="#" target="_blank" className="cta-btn text-color-main"
-                >Source Code</a
-                >
+                  See Live
+                </a>
+                <a href="#" target="_blank" className="cta-btn text-color-main">
+                  Source Code
+                </a>
               </div>
             </div>
 
@@ -101,11 +103,12 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn cta-btn--hero cta-btn--projects"
-                >See Live</a
                 >
-                <a href="#" target="_blank" className="cta-btn text-color-main"
-                >Source Code</a
-                >
+                  See Live
+                </a>
+                <a href="#" target="_blank" className="cta-btn text-color-main">
+                  Source Code
+                </a>
               </div>
             </div>
 
@@ -128,4 +131,4 @@ export default function ProjectsSection() {
       </div>
     </section>
   );
-};
+}

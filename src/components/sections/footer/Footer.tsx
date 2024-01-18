@@ -1,3 +1,5 @@
+import "./Footer.scss";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -6,32 +8,32 @@ export default function Footer() {
           <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div className="social-links">
+          {/*<a*/}
+          {/*  href="#!"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*  aria-label="twitter"*/}
+          {/*>*/}
+          {/*  <i className="fa-brands fa-twitter"></i>*/}
+          {/*</a>*/}
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.instagram.com/shubhambombarde/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="instagram"
           >
             <i className="fa-brands fa-instagram"></i>
           </a>
+          {/*<a*/}
+          {/*  href="#!"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*  aria-label="codepen"*/}
+          {/*>*/}
+          {/*  <i className="fa-brands fa-codepen"></i>*/}
+          {/*</a>*/}
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i className="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.linkedin.com/in/shubhambombarde/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -39,7 +41,7 @@ export default function Footer() {
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/shubhambombarde/shubhambombarde"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"

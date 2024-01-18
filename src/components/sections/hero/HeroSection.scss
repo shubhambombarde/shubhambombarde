@@ -1,0 +1,116 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  font-weight: 400;
+  color: #272341;
+  padding: 0rem 5.6rem;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  line-height: 1.2;
+  animation: hidden 1000ms linear forwards;
+}
+@media (max-width: 56.25em) {
+  #hero {
+    justify-content: center;
+  }
+}
+@media (max-width: 37.5em) {
+  #hero {
+    padding: 0rem 1.6rem;
+  }
+}
+#hero .hero-title {
+  font-size: 5.6rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: left;
+}
+#hero .hero-title span {
+  margin: 0;
+  display: inline-block;
+}
+@media (max-width: 75em) {
+  #hero .hero-title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 56.25em) {
+  #hero .hero-title {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+}
+@media (max-width: 37.5em) {
+  #hero .hero-title {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 20em) {
+  #hero .hero-title {
+    font-size: 2.8rem;
+  }
+}
+#hero .hero-cta {
+  display: flex;
+}
+@media (max-width: 56.25em) {
+  #hero .hero-cta {
+    justify-content: center;
+  }
+}
+#hero .hero-cta a {
+  font-size: 2.4rem;
+}
+@media (max-width: 37.5em) {
+  #hero .hero-cta a {
+    font-size: 2rem;
+  }
+}
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  height: 10px;
+  width: 10px;
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 2px solid #5b86e5;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: none;
+  border-left: none;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::after {
+  top: 30%;
+  animation-delay: 0.3s;
+}
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 90%;
+  }
+}
