@@ -8,7 +8,7 @@ import useScrollReveal from "@/hooks/useScrollReveal";
 import useVanillaTilt from "@/hooks/useVanillaTilt";
 
 export default function Home() {
-  useScrollReveal();
+  // useScrollReveal();
   useVanillaTilt();
   return (
     <>
