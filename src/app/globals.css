@@ -1,7 +1,8 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -245,7 +246,7 @@ section {
 }
 section .row {
   display: grid;
-  gap: 2rem;
+  gap: 0rem;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   padding: 0 1.5rem;

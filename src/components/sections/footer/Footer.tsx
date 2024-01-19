@@ -16,14 +16,14 @@ export default function Footer() {
           {/*>*/}
           {/*  <i className="fa-brands fa-twitter"></i>*/}
           {/*</a>*/}
-          <a
-            href="https://www.instagram.com/shubhambombarde/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i className="fa-brands fa-instagram"></i>
-          </a>
+          {/*<a*/}
+          {/*  href="https://www.instagram.com/shubhambombarde/"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*  aria-label="instagram"*/}
+          {/*>*/}
+          {/*  <i className="fa-brands fa-instagram"></i>*/}
+          {/*</a>*/}
           {/*<a*/}
           {/*  href="#!"*/}
           {/*  target="_blank"*/}
@@ -48,17 +48,41 @@ export default function Footer() {
           >
             <i className="fa-brands fa-github"></i>
           </a>
+          <a
+            href="mailto: shubhambombarde4@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="email"
+          >
+            <i className="fa-solid fa-envelope"></i>
+          </a>
         </div>
-        {/*<hr/>*/}
-        {/*<p className="footer__text">*/}
-        {/*  &copy; 2024 - Template by*/}
-        {/*  <a*/}
-        {/*    href="https://github.com/AnilSeervi"*/}
-        {/*    target="_blank"*/}
-        {/*    rel="noopener noreferrer"*/}
-        {/*  >Anil Seervi</a*/}
-        {/*  >. <br/>Made with &hearts;*/}
-        {/*</p>*/}
+        <hr />
+        <p className="footer__text mt-8">
+          Coded in{" "}
+          <a href="https://www.jetbrains.com/webstorm/?var=1" target="_blank">
+            WebStorm
+          </a>{" "}
+          by yours truly. Built with{" "}
+          <a href="https://nextjs.org/" target="_blank">
+            Next.js
+          </a>{" "}
+          and{" "}
+          <a href="https://tailwindcss.com/" target="_blank">
+            Tailwind CSS
+          </a>
+          , deployed with{" "}
+          <a href="https://vercel.com/" target="_blank">
+            Vercel
+          </a>
+          .{/*&copy; 2024 - Template by*/}
+          {/*<a*/}
+          {/*  href="https://github.com/AnilSeervi"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>Anil Seervi</a*/}
+          {/*>. <br/>Made with &hearts;*/}
+        </p>
       </div>
     </footer>
   );
