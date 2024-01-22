@@ -21,7 +21,7 @@ export default function AboutSection() {
               expertise in crafting exceptional frontend features using{" "}
               <b>React</b>
               <b>(Next JS)</b>, <b>GraphQL</b>, and <b>TypeScript</b>. My
-              curiosity for exploring the realm of AI, coupled with my
+              curiosity for exploring the realm of <b>AI</b>, coupled with my
               proficiency in technical domains, consistently contributes to the
               enhancement of product quality and user experience.
             </p>
