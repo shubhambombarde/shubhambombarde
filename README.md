@@ -1,10 +1,10 @@
 ### Hi there 👋
 
 I am a seasoned Software Developer with nearly 5 years of expertise in crafting exceptional frontend
-features using React (Next JS), GraphQL, and TypeScript. My ability to excel in technical aspects and
-effectively execute tasks ensures product quality. I excel in collaborative environments,
-communicating complex concepts effectively. My passion for excellence makes me a valuable asset
-to any software development team.
+features using React (Next JS), GraphQL, and TypeScript. My curiosity for exploring the realm of AI,
+coupled with my proficiency in technical domains, consistently contributes to the enhancement of
+product quality and user experience. I excel in collaborative environments, communicating complex
+concepts effectively.
 
 <!--
 **shubhambombarde/shubhambombarde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
