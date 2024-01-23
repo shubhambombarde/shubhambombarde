@@ -98,7 +98,10 @@ export default function ExperienceSection() {
     <section id="experience">
       <div className="container">
         <div className="experience-wrapper">
-          <h2 className="section-title dark-blue-text">Experience</h2>
+          <div className="section-title-container">
+            <p />
+            <h2 className="section-title dark-blue-text">Experience</h2>
+          </div>
           {data.map((item) => (
             <ExperienceItem key={item.timeline} {...item} />
           ))}

@@ -23,6 +23,24 @@
     margin-bottom: 0rem;
   }
 }
+#experience .experience-wrapper .section-title-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+@media (max-width: 37.5em) {
+  #experience .experience-wrapper .section-title-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+#experience .experience-wrapper .section-title {
+  justify-self: left;
+}
+@media (max-width: 37.5em) {
+  #experience .experience-wrapper .section-title {
+    justify-self: auto;
+  }
+}
 #experience .experience-wrapper .row {
   margin: 0;
   margin-bottom: 8rem;
