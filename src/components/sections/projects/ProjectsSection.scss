@@ -26,15 +26,18 @@
 #projects .project-wrapper .row {
   margin: 0;
   margin-bottom: 8rem;
+  grid-template-columns: 1fr 1fr;
 }
 @media (max-width: 37.5em) {
   #projects .project-wrapper .row {
     margin-bottom: 4rem;
+    grid-template-columns: 1fr;
   }
 }
 #projects .project-wrapper__text {
   width: 100%;
   text-align: left;
+  align-self: center;
 }
 @media (max-width: 75em) {
   #projects .project-wrapper__text {

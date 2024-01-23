@@ -10,7 +10,7 @@ export default function ProjectsSection() {
           {/*// <!-- Each .row is a project -->*/}
           <article className="row">
             <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Zuju Kickoff</h3>
+              <h3 className="project-wrapper__text-title">Kickoff by Zuju</h3>
               <p className="project-wrapper__text-info">
                 Zuju Kickoff gives you a whole new way to get in on the action
                 while watching the English Premier League. Watch live match ball
@@ -40,10 +40,10 @@ export default function ProjectsSection() {
               >
                 <div className="thumbnail rounded">
                   <img
-                    src="/assets/zuju-kickoff.png"
+                    src="/assets/zuju-kickoff.webp"
                     className="img-fluid"
                     alt="Project Image"
-                    width="1366"
+                    // width="1366"
                     height="767"
                   />
                 </div>
