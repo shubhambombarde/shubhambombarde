@@ -133,27 +133,3 @@
     transform: none;
   }
 }
-.skills {
-  cursor: default;
-  color: #5b86e5;
-  margin-left: 0 !important;
-  margin-right: 8px !important;
-  margin-top: 8px !important;
-  display: inline-block;
-  position: relative;
-  padding: 0.8rem 1.6rem;
-  font-weight: bold;
-  line-height: 1;
-  z-index: 1;
-  overflow: hidden;
-  border-radius: 3px;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  box-shadow:
-          1.5px 1.5px 3px rgba(174, 174, 192, 0.4),
-          -1px -1px 3px #fff;
-  border: 1px solid transparent;
-
-  &:hover {
-    border: 1px solid #5b86e5;
-  }
-}
