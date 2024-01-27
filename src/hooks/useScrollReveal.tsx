@@ -35,44 +35,44 @@ const useScrollReveal = () => {
       origin: "top",
     });
 
-    /* About Section */
-    ScrollReveal().reveal(".section-title", {
-      ...defaultProps,
-      delay: 400,
-      distance: "0px",
-    });
-    ScrollReveal().reveal(".about-wrapper__image", {
-      ...defaultProps,
-      delay: 600,
-      scale: 0.5,
-    });
+    // /* About Section */
+    // ScrollReveal().reveal(".section-title", {
+    //   ...defaultProps,
+    //   delay: 400,
+    //   distance: "0px",
+    // });
+    // ScrollReveal().reveal(".about-wrapper__image", {
+    //   ...defaultProps,
+    //   delay: 600,
+    //   scale: 0.5,
+    // });
+    //
+    // ScrollReveal().reveal(".about-wrapper__info", {
+    //   ...defaultProps,
+    //   delay: 700,
+    //   distance: "100px",
+    //   origin: window.innerWidth > 768 ? "left" : "top",
+    // });
+    //
+    // /* Projects Section */
+    // ScrollReveal().reveal(".project-wrapper__text", {
+    //   ...defaultProps,
+    //   delay: 600,
+    //   origin: window.innerWidth > 768 ? "left" : "bottom",
+    // });
+    //
+    // ScrollReveal().reveal(".project-wrapper__image", {
+    //   ...defaultProps,
+    //   delay: 600,
+    //   scale: 0.9,
+    //   origin: window.innerWidth > 768 ? "right" : "bottom",
+    // });
 
-    ScrollReveal().reveal(".about-wrapper__info", {
-      ...defaultProps,
-      delay: 700,
-      distance: "100px",
-      origin: window.innerWidth > 768 ? "left" : "top",
-    });
-
-    /* Projects Section */
-    ScrollReveal().reveal(".project-wrapper__text", {
-      ...defaultProps,
-      delay: 600,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    });
-
-    ScrollReveal().reveal(".project-wrapper__image", {
-      ...defaultProps,
-      delay: 600,
-      scale: 0.9,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
-    });
-
-    /* Contact Section */
-    ScrollReveal().reveal(".contact-wrapper", {
-      ...defaultProps,
-      delay: 600,
-    });
+    // /* Contact Section */
+    // ScrollReveal().reveal(".contact-wrapper", {
+    //   ...defaultProps,
+    //   delay: 600,
+    // });
 
     ScrollReveal().reveal(".fa", {
       ...defaultProps,
