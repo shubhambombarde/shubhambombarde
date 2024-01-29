@@ -2,13 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { metadata as _metadata } from "@/constants/metadata";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Shubham Bombarde | Developer",
-  description: "React, Next JS, TypeScript, GraphQL, Artificial Intelligence",
-};
+export const metadata: Metadata = _metadata;
 
 export default function RootLayout({
   children,
