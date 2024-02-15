@@ -94,6 +94,7 @@
   height: 100%;
   vertical-align: middle;
   border-radius: 2px;
+  object-fit: cover;
 }
 @media (max-width: 37.5em) {
   #publication .publication-wrapper__image .thumbnail {
