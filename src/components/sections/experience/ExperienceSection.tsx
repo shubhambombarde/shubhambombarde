@@ -46,7 +46,7 @@ export default function ExperienceSection() {
       companyName: "Kickoff by Zuju",
       jobTitle: "Software Developer",
       jobDescription: [
-        "Deliver high quality, robust production code for '<a href='https://zujukickoff.com/' target='_blank' class='underline'>Kickoff by Zuju</a>'. Collaborate with cross-functional teams, including backend developers and designers, to ensure seamless integration and consistency across all platforms. Proactively make suggestions for tech stack enhancements.",
+        "Deliver high quality, robust production code for '<a href='https://zujukickoff.com/' target='_blank' class='underline'>Kickoff by Zuju</a>'. Collaborate with cross-functional teams, including backend developers and designers, to ensure seamless integration and consistency across all platforms. Boosting website traffic by using a dynamic sitemap and pre-building associated pages in streamlined pipeline to minimise latency. Proactively make suggestions for tech stack enhancements.",
         // "Developing robust, user-friendly front-end features for both the user application and back-office systems, enhancing the user experience and operational efficiency.",
         // "Working closely with UX/UI designers to translate design wireframes into responsive and interactive web applications.",
         // "Collaborating and communicating with cross-functional teams, including backend developers and designers, to ensure seamless integration and consistency across the platform.",
