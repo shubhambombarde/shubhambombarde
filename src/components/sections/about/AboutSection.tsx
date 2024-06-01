@@ -1,4 +1,5 @@
 import "./AboutSection.scss";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -7,7 +8,7 @@ export default function AboutSection() {
         <h2 className="section-title drop-shadow-2xl">About Me</h2>
         <div className="row about-wrapper">
           <div className="about-wrapper__image">
-            <img
+            <Image
               className="img-fluid"
               src="/assets/profile.jpeg"
               alt="Profile Image"
