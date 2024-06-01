@@ -10,7 +10,7 @@ export default function PublicationSection() {
             <div className="publication-wrapper__image">
               <div className="thumbnail rounded">
                 <img
-                  src="/assets/publication-cover-1.jpg"
+                  src="/assets/publication-cover-1.webp"
                   className="img-fluid"
                   alt="Project Image"
                   width="1366"

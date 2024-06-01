@@ -10,7 +10,7 @@ export default function AboutSection() {
           <div className="about-wrapper__image">
             <Image
               className="img-fluid"
-              src="/assets/profile.jpeg"
+              src="/assets/profile.webp"
               alt="Profile Image"
               width="450"
               height="350"
