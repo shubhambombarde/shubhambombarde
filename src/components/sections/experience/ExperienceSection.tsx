@@ -42,19 +42,26 @@ function ExperienceItem(payload: {
 export default function ExperienceSection() {
   const data = [
     {
-      timeline: "APRIL 2022 - PRESENT",
+      timeline: "MARCH 2024 - PRESENT",
+      companyName: "Vistra",
+      jobTitle: "Software Developer",
+      jobDescription: [
+        "Engineered a comprehensive client onboarding and management platform from the ground up for corporate services. Helped onboard over 3000 clients in first two quarters.",
+        "Centralized data from diverse sources into a unified, authoritative platform, employing advanced strategies with ReactFlow to deliver intuitive, visually appealing UI.",
+        "Integrated a customized Gen-AI model via AWS Bedrock to elevate user experience and operational efficiency.",
+      ],
+      skillsList: ["NextJs 14", "Typescript", "GraphQL", "ReactFlow"],
+    },
+    {
+      timeline: "APRIL 2022 - FEBRUARY 2024",
       companyName: "Kickoff by Zuju",
       jobTitle: "Software Developer",
       jobDescription: [
-        "Deliver high quality, robust production code for '<a href='https://zujukickoff.com/' target='_blank' class='underline'>Kickoff by Zuju</a>'. Collaborate with cross-functional teams, including backend developers and designers, to ensure seamless integration and consistency across all platforms. Boosting website traffic by using a dynamic sitemap and pre-building associated pages in streamlined pipeline to minimise latency. Proactively make suggestions for tech stack enhancements.",
-        // "Developing robust, user-friendly front-end features for both the user application and back-office systems, enhancing the user experience and operational efficiency.",
-        // "Working closely with UX/UI designers to translate design wireframes into responsive and interactive web applications.",
-        // "Collaborating and communicating with cross-functional teams, including backend developers and designers, to ensure seamless integration and consistency across the platform.",
-        // "Dedicated to continuous learning, I stay abreast of the latest frontend trends and technologies, including Next JS features and the seamless integration of GitHub Copilot into workflow processes. Proactively making recommendations for tech stack enhancements.\n",
+        "Delivered high quality, robust production code for '<a href='https://zujukickoff.com/' target='_blank' class='underline'>Kickoff by Zuju</a>'. Collaborated with cross-functional teams, including backend developers and designers, to ensure seamless integration and consistency across all platforms. Boosted website traffic by using a dynamic sitemap and pre-building associated pages in streamlined pipeline to minimise latency. Proactively made suggestions for tech stack enhancements.",
       ],
       skillsList: [
-        "React JS",
-        "NextJS",
+        "ReactJs",
+        "NextJs",
         "Typescript",
         "Cypress",
         "GraphQL",
